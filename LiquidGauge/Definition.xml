@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="LiquidGauge" Description="Liquid Gauge" PropertiesPage="NewProperties.qvpp" PageHeight="100000">
+	<Text Label="Min Value" Type="text" Initial=""  Expression="0"/>
+	<Text Label="Max Value" Type="text" Initial=""  Expression="100"/>
+	<Text Label="Circle Thickness" Type="text" Initial=""  Expression="0.05"/>
+	<Text Label="Circle Fill Gap" Type="text" Initial=""  Expression="0.05"/>
+	<Text Label="Circle Color" Type="color" Initial=""  Expression="#32CD32"/>
+	<Text Label="Cave Height" Type="text" Initial=""  Expression="0.05"/>
+	<Text Label="Wave Count" Type="text" Initial=""  Expression="1"/>
+	<Text Label="Wave Rise Time" Type="text" Initial=""  Expression="1000"/>
+	<Text Label="Wave Animate Time" Type="text" Initial=""  Expression="18000"/>
+	<Text Label="Wave Rise" Type="checkbox" Initial=""  Expression="1"/>
+	<Text Label="Wave Height Scaling" Type="checkbox" Initial=""  Expression="1"/>
+	<Text Label="Wave Animate" Type="checkbox" Initial=""  Expression="1"/>
+	<Text Label="Wave Color" Type="color" Initial=""  Expression="#32CD32"/>
+	<Text Label="Wave Offset" Type="text" Initial=""  Expression="0"/>
+	<Text Label="Text Vert Position" Type="text" Initial=""  Expression="0.5"/>
+	<Text Label="Text Size" Type="text" Initial=""  Expression="1"/>
+	<Text Label="Value CountUp" Type="checkbox" Initial=""  Expression="1"/>
+	<Text Label="Display Percent" Type="checkbox" Initial=""  Expression="1"/>
+	<Text Label="Text Color" Type="color" Initial=""  Expression="#228B22"/>
+	<Text Label="Wave Text Color" Type="color" Initial=""  Expression="#228B22"/>
+	<Text Label="Actual Value" Type="text" Initial=""  Expression="0"/>
+</ExtensionObject>
