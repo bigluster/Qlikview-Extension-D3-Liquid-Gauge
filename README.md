@@ -1,1 +1,1 @@
-"# Liquid Fill Gauge Qlikview Extension using D3" 
+# Liquid Fill Gauge Qlikview Extension using D3
