@@ -9,6 +9,7 @@ Drag the Liquid Fill Gauge Extension from New Object List in webview mode.
 <img src="https://github.com/sanveera/Qlikview-Extension-D3-Liquid-Gauge/blob/master/img/Exten.PNG">
 
 Custom Properties available for this extension
+
 <img src="https://github.com/sanveera/Qlikview-Extension-D3-Liquid-Gauge/blob/master/img/Properties.PNG">
 
 <img src="https://github.com/sanveera/Qlikview-Extension-D3-Liquid-Gauge/blob/master/img/Properties1.PNG">
