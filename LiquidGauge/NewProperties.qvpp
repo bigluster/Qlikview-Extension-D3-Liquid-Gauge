@@ -13,6 +13,7 @@
 				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.20.Content'></div>
 			</div><br />
 			
+			
 			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Min Value</div>
 			<div class='prop-grid_span-10 prop-grid_last'>
 				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.0.Content'></div>
@@ -20,6 +21,14 @@
 			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Max Value</div>
 			<div class='prop-grid_span-10 prop-grid_last'>
 				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.1.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Value CountUp</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.16.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Display Percent</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.17.Content'></div>
 			</div><br />
 		</div>
 		<h3 class="prop-h3 accordion-shadow">
@@ -38,11 +47,41 @@
 			<div class='prop-grid_span-10 prop-grid_last'>
 				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.3.Content'></div>
 			</div><br />
+			
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Text Vert Position</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.14.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Text Size</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.15.Content'></div>
+			</div><br />
 			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Circle Color</div>
 			<div class='prop-grid_span-10 prop-grid_last'>
 				<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.4.Content:Color.qvpp'></div>
 			</div><br />
-			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Cave Height</div>
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Text Color</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.18.Content:Color.qvpp'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Wave Text Color</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.19.Content:Color.qvpp'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Wave Color</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.12.Content:Color.qvpp'></div>
+			</div><br />
+		</div>
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				Wave Configuration
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Wave Height</div>
 			<div class='prop-grid_span-10 prop-grid_last'>
 				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.5.Content'></div>
 			</div><br />
@@ -70,37 +109,10 @@
 			<div class='prop-grid_span-10 prop-grid_last'>
 				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.11.Content'></div>
 			</div><br />
-			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Wave Color</div>
-			<div class='prop-grid_span-10 prop-grid_last'>
-				<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.12.Content:Color.qvpp'></div>
-			</div><br />
+			
 			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Wave Offset</div>
 			<div class='prop-grid_span-10 prop-grid_last'>
 				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.13.Content'></div>
-			</div><br />
-			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Text Vert Position</div>
-			<div class='prop-grid_span-10 prop-grid_last'>
-				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.14.Content'></div>
-			</div><br />
-			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Text Size</div>
-			<div class='prop-grid_span-10 prop-grid_last'>
-				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.15.Content'></div>
-			</div><br />
-			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Value CountUp</div>
-			<div class='prop-grid_span-10 prop-grid_last'>
-				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.16.Content'></div>
-			</div><br />
-			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Display Percent</div>
-			<div class='prop-grid_span-10 prop-grid_last'>
-				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.17.Content'></div>
-			</div><br />
-			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Text Color</div>
-			<div class='prop-grid_span-10 prop-grid_last'>
-				<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.18.Content:Color.qvpp'></div>
-			</div><br />
-			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Wave Text Color</div>
-			<div class='prop-grid_span-10 prop-grid_last'>
-				<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.19.Content:Color.qvpp'></div>
 			</div><br />
 
 		</div>

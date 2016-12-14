@@ -24,8 +24,8 @@ function (){
 		
 	    var ui = document.createElement("div");
 		ui.setAttribute("id", divName);
-		ui.setAttribute("width", 1250);
-		ui.setAttribute("height",   250);
+	//	ui.setAttribute("width", 1250);
+	//	ui.setAttribute("height",   250);
 		$(_this.Element).append(ui);	
 		//console.log(ui);
 		var svgName='_svg_' + objectId;
@@ -56,7 +56,10 @@ function (){
 		}
 		LoadValues();
 
-		var actualValue = _this.Layout.Text20.text
+		var actualValue = _this.Layout.Text20.text;
+		//var displayValue = _this.Layout.Text21.text;
+		//if(displayValue=="")
+		//	displayValue = actualValue;
 		//console.log(actualValue);
 		loadLiquidFillGauge(divName,actualValue, _this.GetWidth(), _this.GetHeight(),config);
 

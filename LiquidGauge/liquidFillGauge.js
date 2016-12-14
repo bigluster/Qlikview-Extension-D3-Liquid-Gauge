@@ -33,7 +33,10 @@ function liquidFillGaugeDefaultSettings(){
 function loadLiquidFillGauge(elementId, value, gwidth, gheight, config) {
     
     if(config == null) config = liquidFillGaugeDefaultSettings();
-    var gauge = d3.select("#" + elementId).append("svg");
+    var gauge = d3.select("#" + elementId)
+        .append("svg")
+        .attr("width", gwidth)
+        .attr("height", gheight);
   //  console.log(gwidth + '\n' + gheight);
     
     var radius = Math.min(parseInt(gwidth), parseInt(gheight))/2;
@@ -75,12 +78,12 @@ function loadLiquidFillGauge(elementId, value, gwidth, gheight, config) {
 
     // Rounding functions so that the correct number of decimal places is always displayed as the value counts up.
     var textRounder = function(value){ return Math.round(value); };
-    if(parseFloat(textFinalValue) != parseFloat(textRounder(textFinalValue))){
+    /*if(parseFloat(textFinalValue) != parseFloat(textRounder(textFinalValue))){
         textRounder = function(value){ return parseFloat(value).toFixed(1); };
     }
     if(parseFloat(textFinalValue) != parseFloat(textRounder(textFinalValue))){
         textRounder = function(value){ return parseFloat(value).toFixed(2); };
-    }
+    }*/
 
     // Data for building the clip wave area.
     var data = [];
@@ -130,6 +133,7 @@ function loadLiquidFillGauge(elementId, value, gwidth, gheight, config) {
     // Text where the wave does not overlap.
     var text1 = gaugeGroup.append("text")
         .text(textRounder(textStartValue) + percentText)
+       // .text(displayText + percentText)
         .attr("class", "liquidFillGaugeText")
         .attr("text-anchor", "middle")
         .attr("font-size", textPixels + "px")
@@ -161,11 +165,15 @@ function loadLiquidFillGauge(elementId, value, gwidth, gheight, config) {
     // Text where the wave does overlap.
     var text2 = fillCircleGroup.append("text")
         .text(textRounder(textStartValue) + percentText)
+      //  .text(displayText + percentText)
         .attr("class", "liquidFillGaugeText")
         .attr("text-anchor", "middle")
         .attr("font-size", textPixels + "px")
         .style("fill", config.waveTextColor)
         .attr('transform','translate('+radius+','+textRiseScaleY(config.textVertPosition)+')');
+
+//    console.log('translate('+radius+','+textRiseScaleY(config.textVertPosition)+')');
+   
 
     // Make the value count up.
     if(config.valueCountUp){
@@ -212,12 +220,12 @@ function loadLiquidFillGauge(elementId, value, gwidth, gheight, config) {
         this.update = function(value){
             var newFinalValue = parseFloat(value).toFixed(2);
             var textRounderUpdater = function(value){ return Math.round(value); };
-            if(parseFloat(newFinalValue) != parseFloat(textRounderUpdater(newFinalValue))){
+           /* if(parseFloat(newFinalValue) != parseFloat(textRounderUpdater(newFinalValue))){
                 textRounderUpdater = function(value){ return parseFloat(value).toFixed(1); };
             }
             if(parseFloat(newFinalValue) != parseFloat(textRounderUpdater(newFinalValue))){
                 textRounderUpdater = function(value){ return parseFloat(value).toFixed(2); };
-            }
+            }*/
 
             var textTween = function(){
                 var i = d3.interpolate(this.textContent, parseFloat(value).toFixed(2));

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ExtensionObject Label="LiquidGauge" Description="Liquid Gauge" PropertiesPage="NewProperties.qvpp" PageHeight="100000">
+<ExtensionObject Label="LiquidGauge" Description="Liquid Gauge" PropertiesPage="NewProperties.qvpp" PageHeight="50000">
 	<Text Label="Min Value" Type="text" Initial=""  Expression="0"/>
 	<Text Label="Max Value" Type="text" Initial=""  Expression="100"/>
 	<Text Label="Circle Thickness" Type="text" Initial=""  Expression="0.05"/>
 	<Text Label="Circle Fill Gap" Type="text" Initial=""  Expression="0.05"/>
 	<Text Label="Circle Color" Type="color" Initial=""  Expression="#32CD32"/>
-	<Text Label="Cave Height" Type="text" Initial=""  Expression="0.05"/>
+	<Text Label="Wave Height" Type="text" Initial=""  Expression="0.05"/>
 	<Text Label="Wave Count" Type="text" Initial=""  Expression="1"/>
 	<Text Label="Wave Rise Time" Type="text" Initial=""  Expression="1000"/>
 	<Text Label="Wave Animate Time" Type="text" Initial=""  Expression="18000"/>
